@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./src/output.css" rel="stylesheet">
+    <title>Tailwind v4</title>
+</head>
+
+<!-- Center Align All Thing  -->
+
+<body class="bg-blue-950 grid place-content-center ">
+
+
+
+<!-- Noramally Prectise tailwind  -->
+
+<div class="max-w-2xs md:w-full bg-amber-400 p-4 mb-3.5 mt-3.5">
+    <h1 class="text-white text-4xl font-bold text-center">Hello World!</h1>
+</div>
+
+
+<!-- 1st Design Using tailwind  -->
+
+<div class="p-6 max-w-sm bg-white rounded-2xl flex items-center space-x-2 mb-7 mt-11">
+    <div class="mb-2.5">
+        <img class=" m-auto w-[100px] my-auto" src="https://static.vecteezy.com/system/resources/thumbnails/024/553/534/small/lion-head-logo-mascot-wildlife-animal-illustration-generative-ai-png.png" alt="">
+    </div>
+    
+<!-- 1st card design Assigment  -->
+
+    <div>
+        <h1 class= " font-bold text-xl">Our Image Card</h1>
+        <p class=" text-sm text-slate-600">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+</div>
+
+
+<div class="w-sm bg-slate-50 p-1.5 items-center rounded-2xl">
+    <div>
+        <img class="rounded-2xl mx-auto mb-2.5 shadow-lg" src="https://www.shutterstock.com/image-photo/sun-sets-behind-mountain-ranges-600nw-2479236003.jpg" alt="">
+    </div>
+    <div>
+        <h1 class="font-bold text-2xl text-center">Our Assigment</h1>
+        <p class="text-center text-slate-600">Lorem, ipsum dolor.</p>
+    </div>
+</div>
+
+
+<!-- Simple Button DDesign Using Tailwind  -->
+
+<button class="mt-1.5 bg-sky-400 rounded-2xl text-white text-3xl p-4 font-bold hover:bg-white hover:text-black">Buy Now</button>
+
+
+<!-- In Tailwind When You make anything it setup by defultly in Mobile response  
+ if You make it responsive you need know some breakoint prefix that was like SM=640px MD=768px 
+ and lg , xl 2xl Also you can Customize it So bascially at  first you need to know basic prefix  -->
+
+ <!-- So now we make a basic responsive design  -->
+
+<div class="mt-4.5 ">
+    <div class="max-w-sm mx-auto bg-slate-200 rounded-2xl overflow-hidden md:max-w-2xl mb-[50px]">
+        <div class="md:flex ">
+            <div>
+                <img class="md:w-2xs md:h-55 object-cover" src="https://www.shutterstock.com/image-photo/sun-sets-behind-mountain-ranges-600nw-2479236003.jpg" alt="">
+            </div>
+            <div class="p-8">
+                <h1 class="text-2xl font-semibold text-center mb-3 uppercase">Responsive Desogn</h1>
+                <p class="text-md text-slate-800 w-2xs tracking-wider">Lorem ipsum dolor sit amet.Lorem ipsum Lorem <span class="bg-amber-400 py-[2px] font-bold px-[4px]">Power</span> ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
